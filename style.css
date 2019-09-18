@@ -3,17 +3,12 @@
 }
 
 body {
-  font-family: "Open Sans",sans-serif; 
-  color: #444;
+  font-family: 'Rubik', sans-serif;
+  color: rgb(26, 31, 27);
   text-align: center;
   line-height: 1.5;
   margin: 0;
-}
-
-nav,
-footer {
-  padding: 1% 0;
-  background-color: #aaa;
+  background-color: #D9FBE0
 }
 
 nav {
@@ -22,6 +17,56 @@ nav {
   left: 0;
   right: 0;
   z-index: 10;
+}
+
+nav,
+footer {
+  padding: 1% 0;
+  background-color: #697A6D;
+}
+
+header {
+  padding: 12% 0;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+p {
+  text-align: left;
+  padding: 0 8%;
+  font-family: 'Karla', sans-serif;
+}
+
+a {
+  color: rgb(26, 31, 27);
+}
+
+img {
+  width: 225px;
+  height: 225px;
+  border: 1px solid black;
+}
+
+section {
+  min-height: 200px;
+  padding: 6% 0;
+  background-color: #C1E0C7;
+}
+
+section:nth-child(even) {
+  background-color: #A0BAA5;
+}
+
+a:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 0.5;
 }
 
 .name {
@@ -35,35 +80,9 @@ nav {
   margin-right: 15px;
   font-size: 20px;
   line-height: 1.25;
-}
-
-header {
-  padding: 12% 0;
-}
-
-h1 {
-  font-size: 25px;
-}
-
-img {
-  width: 225px;
-  height: 225px;
-  border: 1px solid black;
-}
-
-section {
-  min-height: 200px;
-  padding: 6% 0;
-  background-color: #bbb;
-}
-
-section:nth-child(even) {
-  background-color: #ddd;
-}
-
-p {
-  text-align: left;
-  padding: 0 8%;
+  background-color: #A0BAA5;
+  border: 1px solid rgb(95, 105, 97);
+  border-radius: 3px;
 }
 
 .project p {
