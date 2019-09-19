@@ -83,3 +83,19 @@ button:hover {
   border: 1px solid rgb(95, 105, 97);
   border-radius: 3px;
 }
+
+.menu {
+  list-style: none;
+  margin-top: 35px;
+  padding: 0;
+  display: none;
+}
+
+.menu a {
+  text-decoration: none;
+  line-height: 1.75;
+}
+
+.active {
+  display: block;
+}

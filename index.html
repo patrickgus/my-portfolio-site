@@ -8,16 +8,28 @@
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <nav role="navigation">
+  <nav class="navbar">
     <div class="name">Patrick Gustafson</div>
-    <button class="hamburger-icon">&#9776</button>
-    <!-- <ul class="menu">
-      <li>About Me</li>
-      <li>Projects</li>
-      <li>Contact</li>
-      <li>GitHub</li>
-      <li>LinkedIn</li>
-    </ul> -->
+    <span class="navbar-toggle" id="js-navbar-toggle">
+       <button class="hamburger-icon">&#9776</button>
+    </span>
+    <ul class="menu" id="js-menu">
+      <li>
+        <a href=".bio" class="page-links">About Me</a>
+      </li>
+      <li>
+        <a href=".projects" class="page-links">Projects</a>
+      </li>
+      <li>
+        <a href=".contact" class="page-links">Contact</a>
+      </li>
+      <li>
+        <a href="https://github.com/patrickgus" class="nav-links">GitHub</a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/patrick-gustafson-970a56149/" class="nav-links">LinkedIn</a>
+      </li>
+    </ul>
   </nav>
 
   <header role="banner">
@@ -32,7 +44,7 @@
       <p>I am based in Southern California. I am an avid video gamer and technology enthusiast. I enjoy music, television, and movies as well as baseball, hiking, and puzzles. Growing up in the 90’s, I have always been fascinated with technology. I played with computers when I was a kid and I’ve watched them change and improve throughout the years. I like to challenge myself with puzzles to enhance my problem solving skills.</p>
     </section>
 
-    <section class="project">
+    <section class="projects">
       <h2>Projects</h2>
       <h3>Star Wars Quiz App</h3>
       <img src="http://www.stleos.uq.edu.au/wp-content/uploads/2016/08/image-placeholder-350x350.png" alt="Placeholder image for the star screen for a Star Wars quiz">
@@ -41,8 +53,14 @@
       <a href="https://patrickgus.github.io/StarWarsQuizApp/">Live Page</a><br>
       <a href="https://github.com/patrickgus/StarWarsQuizApp">Repo</a>
     </section>
+    
+    <div class="back-to-top"><a href="header" class="page-links">Back to Top</a></div>
+  
   </main>
 
-  <footer role="contact-info">Email: <a href="mailto: patrickgus@charter.net">patrickgus@charter.net</a></footer>
+  <footer class="contact" role="contact-info">Email: <a href="mailto: patrickgus@charter.net">patrickgus@charter.net</a></footer>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="script.js"></script> 
 </body>
 </html>
