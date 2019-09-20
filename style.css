@@ -4,10 +4,14 @@
 
 body {
   font-family: 'Rubik', sans-serif;
-  color: #444;
   text-align: center;
   line-height: 1.5;
   margin: 0;
+  background: url(https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 nav {
@@ -21,7 +25,8 @@ nav {
 nav,
 footer {
   padding: 1% 0;
-  background-color: #aaa;
+  background-color: black;
+  color: rgb(187, 187, 187);
 }
 
 header {
@@ -29,7 +34,8 @@ header {
 }
 
 h1 {
-  font-size: 25px;
+  font-size: 30px;
+  color: black;
 }
 
 p {
@@ -39,7 +45,7 @@ p {
 }
 
 a {
-  color: #444;
+  color: rgb(187, 187, 187);
 }
 
 img {
@@ -51,11 +57,11 @@ img {
 section {
   min-height: 200px;
   padding: 6% 0;
-  background-color: #bbb;
+  background-color: rgb(187, 187, 187, 0.75);
 }
 
 section:nth-child(even) {
-  background-color: #ddd;
+  background-color: rgb(221, 221, 221, 0.75);
 }
 
 a:hover {
@@ -79,7 +85,7 @@ button:hover {
   margin-right: 15px;
   font-size: 20px;
   line-height: 1.25;
-  background-color: #ddd;
+  background-color: rgb(187, 187, 187);
   border: 1px solid rgb(95, 105, 97);
   border-radius: 3px;
 }
@@ -98,4 +104,14 @@ button:hover {
 
 .active {
   display: block;
+}
+
+.back-to-top {
+  margin: 10px;
+}
+
+#projects a {
+  color: black;
+  font-family: 'Karla', sans-serif;
+  font-size: 18px;
 }
