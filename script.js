@@ -9,8 +9,8 @@ function handleLinkClick() {
   $('.page-links').on('click', function(event) {
     event.preventDefault();
 
-    $('html').animate({ 
-      scrollTop: $( $(this).attr('href') ).offset().top 
+    $('html, body').animate({
+      scrollTop: $(this.hash).offset().top
     }, 800);
   });
 }
