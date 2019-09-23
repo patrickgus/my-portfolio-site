@@ -42,14 +42,6 @@ h1 {
   text-align: center;
 }
 
-h2 {
-  text-align: center;
-}
-
-h3 {
-  text-align: center;
-}
-
 p {
   padding: 0 8%;
   font-family: 'Karla', sans-serif;
@@ -69,6 +61,10 @@ section {
   min-height: 100vh;
   padding: 15px 0;
   background-color: rgb(187, 187, 187, 0.75);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 footer {
@@ -140,16 +136,9 @@ button:hover {
   text-decoration: none;
 }
 
-#bio {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-/* #bio img {
+#bio img {
   margin: 20px 0;
-  width: 250px;
-} */
+}
 
 #projects a {
   color: black;
@@ -180,6 +169,10 @@ button:hover {
     font-size: 1.25rem;
   }
 
+  img {
+    width: 300px;
+  }
+
   footer {
     font-size: 17px;
   }
@@ -201,7 +194,7 @@ button:hover {
   }
 
   .menu li {
-    margin-right: 10px;
+    margin-right: 15px;
   }
 }
 
@@ -212,7 +205,6 @@ button:hover {
 
   img {
     width: 450px;
-    height: 450px;
   }
 
   footer {
