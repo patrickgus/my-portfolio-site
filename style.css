@@ -152,6 +152,11 @@ button:hover {
     font-size: 14px;
   }
 
+  footer img {
+    width: 18px;
+    height: 18px;
+  }
+
   .hamburger-icon {
     font-size: 17px;
   }
@@ -160,6 +165,10 @@ button:hover {
 @media screen and (min-width: 768px) {
   body {
     font-size: 1.25rem;
+  }
+
+  footer {
+    font-size: 17px;
   }
 
   .hamburger-icon {
@@ -191,6 +200,15 @@ button:hover {
   img {
     width: 450px;
     height: 450px;
+  }
+
+  footer {
+    font-size: 20px;
+  }
+
+  footer img {
+    width: 20px;
+    height: 20px;
   }
 
   .project-container {

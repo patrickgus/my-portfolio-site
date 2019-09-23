@@ -1,7 +1,7 @@
 function handleToggleButtonClick() {
   $('#js-navbar-toggle').click(function(event) {
 
-    $('#js-menu').toggle("active");
+    $('#js-menu').toggleClass('active');
   });
 }
 
