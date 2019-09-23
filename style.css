@@ -71,7 +71,16 @@ section {
 }
 
 footer {
-  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 12px;
+  padding: 5px 0;
+}
+
+footer img {
+  width: 15px;
+  height: 15px;
+  margin: 0 2px;
 }
 
 section:nth-child(even) {
@@ -97,9 +106,8 @@ button:hover {
 
 .hamburger-icon {
   float: right;
-  margin-right: 15px;
-  font-size: 20px;
-  line-height: 1.25;
+  margin: 1px 15px 0 0;
+  font-size: 15px;
   background-color: rgb(187, 187, 187);
   border: 1px solid rgb(95, 105, 97);
   border-radius: 3px;
@@ -131,9 +139,21 @@ button:hover {
   font-family: 'Karla', sans-serif;
 }
 
+.nav-links {
+  text-decoration: none;
+}
+
 @media screen and (min-width: 450px) {
   body {
     font-size: 1.15rem;
+  }
+
+  footer {
+    font-size: 14px;
+  }
+
+  .hamburger-icon {
+    font-size: 17px;
   }
 }
 
