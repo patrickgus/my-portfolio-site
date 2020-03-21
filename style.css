@@ -102,6 +102,11 @@ button:hover {
   opacity: 0.5;
 }
 
+.navbar-container {
+  display: flex;
+  flex-direction: column;
+}
+
 .name {
   float: left;
   margin: 3px 0 0 15px;
@@ -110,16 +115,17 @@ button:hover {
 
 .hamburger-icon {
   float: right;
-  margin: 1px 15px 0 0;
   font-size: 15px;
   background-color: rgb(187, 187, 187);
   border: 1px solid rgb(95, 105, 97);
   border-radius: 3px;
+  position: fixed;
+  right: 15px;
+  top: 8px;
 }
 
 .menu {
   list-style: none;
-  margin-top: 50px;
   padding: 0;
   display: none;
   margin-left: 15px;
@@ -203,8 +209,8 @@ button:hover {
     display: none;
   }
 
-  .navbar {
-    display: flex;
+  .navbar-container {
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
   }
@@ -220,7 +226,7 @@ button:hover {
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1048px) {
   h1 {
     font-size: 50px;
   }
@@ -251,6 +257,21 @@ button:hover {
     height: 20px;
   }
 
+  .navbar-container {
+    width: 1000px;
+    margin: 0 auto;
+  }
+
+  .name {
+    margin: 0;
+    margin-top: 3px;
+  }
+
+  .menu li {
+    margin-right: 0;
+    margin-left: 15px;
+  }
+
   .project {
     margin-bottom: 200px;
   }
@@ -259,8 +280,8 @@ button:hover {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 0 8%;
-    max-width: 1500px;
+    width: 1000px;
+    margin: 0 auto;
   }
 
   .project-description {
@@ -281,5 +302,17 @@ button:hover {
 
   #projects a {
     padding: 0 8%;
+  }
+}
+
+@media screen and (min-width: 1250px) {
+  .navbar-container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+  .content-container {
+    width: 1200px;
+    margin: 0 auto;
   }
 }
