@@ -3,4 +3,4 @@ This site contains some background information on myself, projects that I have c
 
 [Live Page](https://patrickgus.github.io/my-portfolio-site/)
 
-![portfolio-site](https://user-images.githubusercontent.com/53308172/65469972-3456ce00-de1e-11e9-8890-585e275dc2f3.png)
+![portfolio-site](https://user-images.githubusercontent.com/53308172/78613645-3d8b1380-7821-11ea-87ed-a593da67a95a.png)
